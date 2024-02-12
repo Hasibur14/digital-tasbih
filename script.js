@@ -81,9 +81,11 @@ allahuakberDecrementBtn.addEventListener("click", function () {
 //Reset button
 
 resetButton.addEventListener('click', function () {
+  
   SubhanAllahDisplay.innerText = 0;
   alhamdulilahDisplay.innerText = 0;
   allahuakberDisplay.innerText = 0;
+
   subhanallahInitialValue = 0;
   alhamdulilahInitialValue = 0;
   allahuakberInitialValue = 0;
